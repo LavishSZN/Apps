@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6EC640F0-02E9-4C80-9121-849A985B27D4"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D15EC519-87A0-4DFD-9CD0-E4E5C6B9007D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BC3 Boccia (Sign-to-Speech/DownViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "D15EC519-87A0-4DFD-9CD0-E4E5C6B9007D - 3150f44e35ee4336"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BC3_Boccia__Sign_to_Speech.DownViewController.degree.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "BC3 Boccia (Sign-to-Speech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavish/Documents/Apps/BC3%20Boccia%20(Sign-to-Speech/BC3%20Boccia%20(Sign-to-Speech/DownViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "D15EC519-87A0-4DFD-9CD0-E4E5C6B9007D - 703bec34767165e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BC3_Boccia__Sign_to_Speech.DownViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BC3_Boccia__Sign_to_Speech.DownViewController"
+                  moduleName = "BC3 Boccia (Sign-to-Speech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavish/Documents/Apps/BC3%20Boccia%20(Sign-to-Speech/BC3%20Boccia%20(Sign-to-Speech/DownViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "D15EC519-87A0-4DFD-9CD0-E4E5C6B9007D - 8fbb2c4839b5d7a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BC3_Boccia__Sign_to_Speech.DownViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BC3_Boccia__Sign_to_Speech.DownViewController&gt;"
+                  moduleName = "BC3 Boccia (Sign-to-Speech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavish/Documents/Apps/BC3%20Boccia%20(Sign-to-Speech/BC3%20Boccia%20(Sign-to-Speech/DownViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E4EA2F7-BC0C-48DD-90FC-4E1388DC1545"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BC3 Boccia (Sign-to-Speech/DownViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "3E4EA2F7-BC0C-48DD-90FC-4E1388DC1545 - 3150f44e35ee4336"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BC3_Boccia__Sign_to_Speech.DownViewController.degree.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "BC3 Boccia (Sign-to-Speech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavish/Documents/Apps/BC3%20Boccia%20(Sign-to-Speech/BC3%20Boccia%20(Sign-to-Speech/DownViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "3E4EA2F7-BC0C-48DD-90FC-4E1388DC1545 - 703bec34767165e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BC3_Boccia__Sign_to_Speech.DownViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; BC3_Boccia__Sign_to_Speech.DownViewController"
+                  moduleName = "BC3 Boccia (Sign-to-Speech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavish/Documents/Apps/BC3%20Boccia%20(Sign-to-Speech/BC3%20Boccia%20(Sign-to-Speech/DownViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "3E4EA2F7-BC0C-48DD-90FC-4E1388DC1545 - 8fbb2c4839b5d7a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BC3_Boccia__Sign_to_Speech.DownViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BC3_Boccia__Sign_to_Speech.DownViewController&gt;"
+                  moduleName = "BC3 Boccia (Sign-to-Speech"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lavish/Documents/Apps/BC3%20Boccia%20(Sign-to-Speech/BC3%20Boccia%20(Sign-to-Speech/DownViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

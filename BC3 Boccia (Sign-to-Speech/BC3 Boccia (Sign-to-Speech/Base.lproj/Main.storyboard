@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Left View Controller-->
+        <scene sceneID="aUZ-dR-mUo">
+            <objects>
+                <viewController storyboardIdentifier="LeftViewController" id="Csx-qN-dKJ" customClass="LeftViewController" customModule="BC3_Boccia__Sign_to_Speech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OWp-jh-QI7">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUA-2V-SYP">
+                                <rect key="frame" x="393" y="715" width="234" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Play"/>
+                                <connections>
+                                    <action selector="Play:" destination="9QV-Fd-dak" eventType="touchUpInside" id="68b-cO-QgV"/>
+                                    <action selector="Play:" destination="Csx-qN-dKJ" eventType="touchUpInside" id="ela-3g-277"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7a6-cj-6Mb">
+                                <rect key="frame" x="362" y="145" width="322" height="562"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Csx-qN-dKJ" id="pc8-c9-p4h"/>
+                                    <outlet property="delegate" destination="Csx-qN-dKJ" id="gLO-Bu-law"/>
+                                </connections>
+                            </pickerView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Left" translatesAutoresizingMaskIntoConstraints="NO" id="zpD-3E-jeQ">
+                                <rect key="frame" x="20" y="359" width="271" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bKm-d9-QVX">
+                                <rect key="frame" x="478" y="145" width="129" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="80"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8bL-F8-miy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HCX-OY-kAY"/>
+                    <connections>
+                        <outlet property="Label" destination="bKm-d9-QVX" id="QMl-c0-CL1"/>
+                        <outlet property="picker" destination="7a6-cj-6Mb" id="ila-dP-ARo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FX7-Fk-bjU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-662.109375" y="80.819912152269396"/>
+        </scene>
+        <!--Up View Controller-->
+        <scene sceneID="EKt-el-bxQ">
+            <objects>
+                <viewController storyboardIdentifier="UpViewController" id="NdM-qr-Vuu" customClass="UpViewController" customModule="BC3_Boccia__Sign_to_Speech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4GA-fV-3kK">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Tfs-bo-KDk">
+                                <rect key="frame" x="171" y="45" width="362" height="251"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBa-pt-nPi">
+                                <rect key="frame" x="228" y="753" width="248" height="214"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play" image="Play"/>
+                                <connections>
+                                    <action selector="Play:" destination="NdM-qr-Vuu" eventType="touchUpInside" id="cwY-lm-h1c"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PnF-U8-zei">
+                                <rect key="frame" x="20" y="380" width="664" height="365"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="NdM-qr-Vuu" id="6oA-Y7-1gC"/>
+                                    <outlet property="delegate" destination="NdM-qr-Vuu" id="4qP-1n-srC"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gpc-rv-D5Z">
+                                <rect key="frame" x="323" y="328" width="58" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="80"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="woJ-sP-29u"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="Label" destination="Gpc-rv-D5Z" id="TTk-Eh-TnB"/>
+                        <outlet property="picker" destination="PnF-U8-zei" id="9Hg-of-hRz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EsU-kT-k1n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="99.609375" y="-581.11273792093698"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="BYZ-38-t0r" customClass="MainViewController" customModule="BC3_Boccia__Sign_to_Speech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jby-xT-o7s">
+                                <rect key="frame" x="20" y="494" width="415" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Left" image="Left"/>
+                                <connections>
+                                    <action selector="LeftButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eOm-Zc-Ozd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mCQ-xF-dHD">
+                                <rect key="frame" x="589" y="498" width="415" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Right" image="Right"/>
+                                <connections>
+                                    <action selector="RightButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z1c-VA-Qzc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zAm-4d-48l" customClass="UpButton" customModule="BC3_Boccia__Sign_to_Speech" customModuleProvider="target">
+                                <rect key="frame" x="266" y="20" width="493" height="451"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" image="YES"/>
+                                </accessibility>
+                                <state key="normal" title="Up" image="Image">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium"/>
+                                </state>
+                                <connections>
+                                    <action selector="UpButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LmV-4S-bmC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHJ-Pq-Fsb">
+                                <rect key="frame" x="266" y="894" width="493" height="452"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Down" image="Down"/>
+                                <connections>
+                                    <action selector="DownButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="K7e-8E-JhY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                    </view>
+                    <connections>
+                        <segue destination="NdM-qr-Vuu" kind="showDetail" identifier="UpSegue" id="d73-jV-j1q"/>
+                        <segue destination="DvS-5b-8fC" kind="showDetail" identifier="RightSegue" id="iEM-hO-lWb"/>
+                        <segue destination="Csx-qN-dKJ" kind="showDetail" identifier="LeftSegue" id="sxU-wO-v29"/>
+                        <segue destination="9QV-Fd-dak" kind="showDetail" identifier="DownSegue" id="tUg-my-r7m"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112.49999999999999" y="74.670571010248892"/>
+        </scene>
+        <!--Down View Controller-->
+        <scene sceneID="mWl-9r-i2b">
+            <objects>
+                <viewController storyboardIdentifier="DownViewController" id="9QV-Fd-dak" customClass="DownViewController" customModule="BC3_Boccia__Sign_to_Speech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UXr-Cl-soI">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ezp-9P-Cp7">
+                                <rect key="frame" x="20" y="95" width="664" height="410"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9QV-Fd-dak" id="Qab-t3-Ndi"/>
+                                    <outlet property="delegate" destination="9QV-Fd-dak" id="Oj2-uu-e4m"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2V-ES-PTX">
+                                <rect key="frame" x="235" y="438" width="234" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Play"/>
+                                <connections>
+                                    <action selector="Play:" destination="9QV-Fd-dak" eventType="touchUpInside" id="h0V-zF-aFs"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFH-2D-Je3">
+                                <rect key="frame" x="304" y="49" width="97" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="80"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Down" translatesAutoresizingMaskIntoConstraints="NO" id="l8l-as-XeK">
+                                <rect key="frame" x="168" y="671" width="369" height="286"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7pw-nF-9N6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lx2-K8-9a8"/>
+                    <connections>
+                        <outlet property="Label" destination="GFH-2D-Je3" id="ldi-fd-oFh"/>
+                        <outlet property="picker" destination="ezp-9P-Cp7" id="ydf-lu-o22"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bpy-Hf-enU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="110.74218749999999" y="736.60322108345531"/>
+        </scene>
+        <!--Right View Controller-->
+        <scene sceneID="s4v-ZC-pVD">
+            <objects>
+                <viewController storyboardIdentifier="RightViewController" id="DvS-5b-8fC" customClass="RightViewController" customModule="BC3_Boccia__Sign_to_Speech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FKy-ed-QD9">
+                        <rect key="frame" x="0.0" y="0.0" width="704" height="995.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mgZ-mX-YBx">
+                                <rect key="frame" x="0.0" y="143" width="322" height="562"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="DvS-5b-8fC" id="nhZ-In-wHk"/>
+                                    <outlet property="delegate" destination="DvS-5b-8fC" id="Sld-ah-f91"/>
+                                </connections>
+                            </pickerView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Right" translatesAutoresizingMaskIntoConstraints="NO" id="u0Z-Cu-U18">
+                                <rect key="frame" x="389" y="329" width="295" height="294"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLf-Xx-fNv">
+                                <rect key="frame" x="64" y="713" width="234" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Play"/>
+                                <connections>
+                                    <action selector="Play:" destination="DvS-5b-8fC" eventType="touchUpInside" id="s5k-7I-adE"/>
+                                    <action selector="Play:" destination="9QV-Fd-dak" eventType="touchUpInside" id="xkh-Pk-ymH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YiP-Gj-Was">
+                                <rect key="frame" x="118" y="143" width="87" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="80"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jgB-Zx-2B3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="Label" destination="YiP-Gj-Was" id="zRB-VU-GYS"/>
+                        <outlet property="picker" destination="mgZ-mX-YBx" id="Cec-vp-RSn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kAy-Ya-sbt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="826.7578125" y="79.941434846266461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Down" width="512" height="512"/>
+        <image name="Image" width="512" height="512"/>
+        <image name="Left" width="512" height="512"/>
+        <image name="Play" width="225" height="225"/>
+        <image name="Right" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
